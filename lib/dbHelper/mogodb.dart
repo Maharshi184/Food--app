@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mongo_dart/mongo_dart.dart';
 
 const MONGO_CONNECTION_URI =
-    "mongodb+srv://maharshi:200405@cluster0.9rfuw.mongodb.net/Food_App";
+    "mongo_cluster_url";
 const USER_COLLECTION = "Login_data";
 
 class mongodb {
