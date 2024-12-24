@@ -76,7 +76,7 @@ class LoginData extends ChangeNotifier {
 
     // SMTP server configuration
     String username = 'kachhimaharshi20@gmail.com';
-    String password = 'lxub ujsw offd cgua';
+    String password = 'your_mail_password';
     final smtpServer = gmail(username, password);
 
     final message = Message()
